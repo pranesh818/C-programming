@@ -6,18 +6,18 @@ int main()
   scanf("%d",&a);
   if (a>=1&&a<100000)  //condition for checking positive or not
     {
-        printf("\nThe number is positive");
+        printf("\n positive");
     }
   else if(a==0)      // condition for checking equal to zero
     {
-      printf("\n the number is zero");
+      printf("\n zero");
     }
   else if(a<0)    // condition for checking negative or not
     {
-        printf("\n The number is negative");
+        printf("\n  negative");
     }
   else
     {
-      printf("\n The number is invalid");
+      printf("\n Invalid");
     }
 }
