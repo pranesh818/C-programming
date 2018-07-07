@@ -4,13 +4,13 @@ int main()
     char ch;
 
     
-    printf("Enter any character: ");
+    printf("Input: ");
     scanf("%c",&ch);
 
     if( (ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
-        printf("The entered character %c is an Alphabet",ch);
+        printf("Output:yes");
     else
-        printf("The entered character %c is not an Alphabet",ch);
+        printf("Output:no");
 
     return 0;
 }
