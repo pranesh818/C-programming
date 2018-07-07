@@ -8,11 +8,9 @@ void main()
     scanf("%c",&ch);
 
     if( (ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
-        printf("Output:Alphabet");
+        printf("Alphabet");
     else
-        printf("Output:Not an alphabet");
-
-    return 0;
+        printf("Not an alphabet");
 }
 
 
