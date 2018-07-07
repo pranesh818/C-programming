@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     char ch;
 
@@ -8,9 +8,9 @@ int main()
     scanf("%c",&ch);
 
     if( (ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
-        printf("Output:yes");
+        printf("Output:Alphabet");
     else
-        printf("Output:no");
+        printf("Output:Not an alphabet");
 
     return 0;
 }
